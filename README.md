@@ -51,3 +51,7 @@ https://www.loom.com/share/96253fbeaa2a4ef3a278f95990fe1b36?sid=e7676e0f-b35a-47
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+## AI Statement
+- Copilot and ChatGPT were extremely helpful in figuring out why the connections between files weren't working and to correct code. 
+- https://docs.google.com/document/d/19dtRd_Wmzz5WXJmm9ysBZDg-F6Bh0uLva5CT_LjsFgA/edit?usp=sharing
