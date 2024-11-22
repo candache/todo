@@ -1,0 +1,31 @@
+# Environment variables
+.env
+
+# Python bytecode
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environments
+venv/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Databases
+*.db
+*.sqlite3
+
+# Static/runtime files
+/static/uploads/
+/static/build/
+
+# Dependency files
+Pipfile.lock
+
+# IDE-specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project

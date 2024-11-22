@@ -1,0 +1,30 @@
+<!-- src/templates/todo/edit_item.html -->
+{% extends "_base.html" %}
+{% block content %}
+<h1>Edit ToDo Item</h1>
+<form method="POST">
+    {{ form.hidden_tag() }}
+    <p>
+        {{ form.title.label }}<br>
+        {{ form.title(size=32) }}<br>
+        {% for error in form.title.errors %}
+            <span style="color: red;">[{{ error }}]</span>
+        {% endfor %}
+    </p>
+    <p>
+        {{ form.description.label }}<br>
+        {{ form.description(rows=4, cols=40) }}<br>
+        {% for error in form.description.errors %}
+            <span style="color: red;">[{{ error }}]</span>
+        {% endfor %}
+    </p>
+    <p>
+        {{ form.status.label }}<br>
+        {{ form.status() }}<br>
+        {% for error in form.status.errors %}
+            <span style="color: red;">[{{ error }}]</span>
+        {% endfor %}
+    </p>
+    <p><input type="submit" value="Update Item"></p>
+</form>
+{% endblock %}
