@@ -2,6 +2,7 @@
 https://www.loom.com/share/96253fbeaa2a4ef3a278f95990fe1b36?sid=e7676e0f-b35a-477e-b498-c680f0b7a59a 
 
 
+'''
 ## Structure
 Login/
 ├── manage.py            # Main entry point for the application
@@ -59,6 +60,7 @@ Login/
     ├── bin/
     ├── lib/
     ├── include/
+'''
 
 
 
