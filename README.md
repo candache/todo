@@ -23,6 +23,12 @@ https://www.loom.com/share/96253fbeaa2a4ef3a278f95990fe1b36?sid=e7676e0f-b35a-47
    pip create -n venv python
    pip activate venv
    ```   
+3. Set up environment variables
+   FLASK_APP=manage.py
+   FLASK_ENV=development
+   SECRET_KEY=your_secret_key
+   DATABASE_URI = DATABASE_URI.replace("postgres://", "postgresql://", 1)
+
 
 
 #### Installation
